@@ -224,8 +224,8 @@ To evaluate biological activity beyond 2D empirical heuristics, the top unstrain
 ### 1. Environment Setup
 ```bash
 # Clone the repository
-git clone https://github.com/Kavya-Garg003/fgai-drug-molecule-generation.git
-cd fgai-drug-molecule-generation
+git clone https://github.com/Kavya-Garg003/SAFE-An-Empirical-Benchmark-of-Multi-Stage-ADMET-Synthetizability-and-Structural-Strain-Attritio.git
+cd SAFE-An-Empirical-Benchmark-of-Multi-Stage-ADMET-Synthetizability-and-Structural-Strain-Attritio
 
 # Create virtual environment
 python -m venv venv

@@ -1,27 +1,11 @@
-# 🧬 Drug Discovery Using LSTM-Based Molecular Generation and Multi-Agent Evaluation Framework
+# 🧬 SAFE+: An Empirical Benchmark of Multi-Stage ADMET, Synthetizability, and Structural Strain Attrition in SELFIES-LSTM Molecular Generation
 
-[![Conference](https://img.shields.io/badge/Conference-ICECAA%202026-blue.svg)](https://icecaa.com/2026/)
-[![Publisher](https://img.shields.io/badge/Proceedings-Springer-orange.svg)](https://www.springer.com)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
+[![Framework](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org/)
+[![Cheminformatics](https://img.shields.io/badge/RDKit-2023%2B-blue.svg)](https://www.rdkit.org/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
 An end-to-end de novo molecular generation and multi-agent evaluation framework combining a **2-Layer Stacked SELFIES-LSTM** generator with **SAFE+** (Sequential ADMET and Synthesizability Filtering Engine) to generate, filter, and prioritize novel, drug-like lead candidates with validated 3D conformational viability and biological target complementarity.
-
-> **Accepted for Publication:**  
-> **4th International Conference on Edge Computing and Applications (ICECAA 2026)**  
-> Gnanamani College of Technology, Namakkal, Tamilnadu, India | December 4–5, 2026  
-> *To be published in Springer Proceedings.*
-
----
-
-## 👥 Authors & Affiliation
-
-- **Harshitha M.\*** (`harshitham.btech23@rvu.edu.in`) — *Corresponding Author*
-- **Kavya Garg** (`kavyag.btech23@rvu.edu.in`)
-- **Thanyaa S.** (`thanyaas.btech23@rvu.edu.in`)
-- **Madderla Chiranjeevi** (`madderlachiranjeevi@rvu.edu.in`)
-
-*School of Computer Science and Engineering, RV University, Bengaluru, India*
 
 ---
 
@@ -36,7 +20,7 @@ An end-to-end de novo molecular generation and multi-agent evaluation framework 
 - [Target-Specific Molecular Docking (EGFR Kinase)](#-target-specific-molecular-docking-egfr-kinase)
 - [Repository Structure](#-repository-structure)
 - [Quickstart & Execution](#-quickstart--execution)
-- [Citation](#-citation)
+- [License](#-license)
 
 ---
 
@@ -249,16 +233,6 @@ python run.py --quick
 
 ---
 
-## 📜 Citation
+## 📄 License
 
-If you find this codebase or benchmark useful in your research, please cite our paper:
-
-```bibtex
-@inproceedings{harshitha2026drug,
-  title={Drug Discovery Using LSTM-Based Molecular Generation and Multi-Agent Evaluation Framework},
-  author={Harshitha, M. and Garg, Kavya and Thanyaa, S. and Chiranjeevi, Madderla},
-  booktitle={Proceedings of the 4th International Conference on Edge Computing and Applications (ICECAA 2026)},
-  year={2026},
-  publisher={Springer}
-}
-```
+This repository is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
